@@ -1,0 +1,63 @@
+.cardbox{
+    width: 260px;
+    /* border: 1px solid #ccc; */
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.first-elmnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elmnt_1{
+    display: flex;
+    align-items: center;
+}
+.elmnt_1> img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+.elmnt_1 > p{
+    font-size: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.elmnt_2{
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10%;
+}
+.elmnt_2 > p{
+    margin-left: 2px;
+}
+
+.third-elmnt > img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000000; 
+}
+
+.third-elmnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.third-elmnt > p{
+
+    height: auto;
+    font-size: 10px;
+    background-color: #e8e5e5;
+    border-radius: 100%;
+}
+
+.hide{
+    display: none;
+}
